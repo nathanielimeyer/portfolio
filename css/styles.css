@@ -87,3 +87,14 @@ img {
 .panel-foo > .panel-body {
   background-color: #faf5ff;
 }
+
+.well > ul {
+  padding-left: 0px;
+  -webkit-padding-start: 0px;
+  list-style-type: none;
+}
+
+.well ul ul {
+  padding-left: 15px;
+  list-style-type: disc;
+}
