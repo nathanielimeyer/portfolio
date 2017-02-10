@@ -98,3 +98,25 @@ img {
   padding-left: 15px;
   list-style-type: disc;
 }
+
+.contextByParent {
+  color: red;
+}
+
+.jumbotron p .contextByParent {
+  font-weight: bolder;
+  color: #000;
+}
+
+li .contextByParent {
+  color: #000;
+
+}
+
+a:hover, a:visited {
+  text-decoration: none;
+}
+
+li a {
+  color: #000;
+}
