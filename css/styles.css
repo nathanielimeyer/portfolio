@@ -1,16 +1,38 @@
-body {
+/*body {
   background-image: url("../img/nathaniel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+}*/
+
+img {
+  float: left;
 }
 
-.panel-success > .panel-body {
+.panel-mint {
+  border-color: #00994f;
+}
+
+.panel-mint > .panel-heading {
+  color: #000;
+  background-color: #4dffa9;
+}
+
+.panel-mint > .panel-body {
   background-color: #ccffe6;
 }
 
-.panel-info > .panel-body {
-  background-color: #f5faff;
+.panel-bleuets {
+  border-color: #002546;
+}
+
+.panel-bleuets > .panel-heading {
+  color: #000;
+  background-color: #005fb3;
+}
+
+.panel-bleuets > .panel-body {
+  background-color: #1a94ff;
 }
 
 .panel-tangerine {
