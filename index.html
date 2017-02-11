@@ -139,6 +139,7 @@
           </div>
         </div>
       </div>
+      <!-- Throwing the well into this row ultimately worked quite nicely.  I also wasn't sure what having a col-<>-12 and two col-<>-6's in the same row would do, but it seems okay... -->
       <div class="row well">
         <div class="col-xs-12">
           <h1 id="aboutMe">About me</h1>
@@ -152,18 +153,43 @@
           <p>Epicodus represents the most serious commitment I've made to my own education in over 20 years.</p>
           <p>Prior to coming to Epicodus my recent attempts at education have been fitful and abortive.</p>
           <p>In 1992 I matriculated at Tufts University. I had been accepted to the college of engineering but unfortunately I got scared that I was typecasting myself and transfered to the college of Liberal Arts. I really wish I had completed an engineering degree, but there is no sense grieving over the past.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-sm-6">
           <h2 id="skills">Skills</h2>
+          <p>My skills are undergoing an overhaul. Previously I was an adaptive and versatile QA Engineer with experience in all aspects of QA planning and execution.</p>
+          <ul>
+            <li>Test plans, cases and processes </li>
+            <li>Selenium automation</li>
+            <li>Strong product integration experience</li>
+            <li>Product management experience</li>
+            <li>Experienced team lead	</li>
+            <li>Agile with Scrum metho dologies</li>
+            <li>Defect tracking administration </li>
+            <li>Back-end db verification
+          </ul>
         </div>
         <div class="col-sm-6">
           <h2 id="hobbies">Hobbies</h2>
-          <ol>
-            <li>Gardening</li>
-            <li>Cooking</li>
-            <li>Going to see concerts</li>
-          </ol>
+          <p>This list is ordered quite deceptively. While some of my hobbies may exist in an ordered hierarchy many do not. And I most certainly enjoy some of them more than the order in which they randomly popped into my head. This will, however, serve to demonstrate the ordered list element.</p>
+          <div class="row">
+            <!-- This seemed like a terrible idea, putting divs inside my ordered list. Yet it works. -->
+            <ol>
+              <div class="col-xs-6">
+                <li>Gardening</li>
+                <li>Cooking</li>
+                <li>Fine dining</li>
+                <li>Going to concerts</li>
+                <li>Playing with my daughter</li>
+              </div>
+              <div class="col-xs-6">
+                <li>Hiking</li>
+                <li>Strolling through gardens</li>
+                <li>Travel</li>
+                <li>Playing computer games</li>
+                <li>Playing board games</li>
+              </div>
+            </ol>
+          </div>
         </div>
       </div>
       <p>Copyright (c) 2017 Nathaniel Meyer; All Rights Reserved</p>
