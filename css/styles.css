@@ -1,12 +1,24 @@
-/*body {
-  background-image: url("../img/nathaniel.jpg");
+body {
+  background-image: url("../img/starsBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-}*/
+}
 
 img {
   float: left;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+.panel {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.panel-body {
+  font-family: sans-serif;
 }
 
 .panel-mint {
@@ -99,6 +111,14 @@ img {
   list-style-type: disc;
 }
 
+.jumbotron img {
+  margin-right: 10px;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+}
+
 .contextByParent {
   color: red;
 }
@@ -110,7 +130,12 @@ img {
 
 li .contextByParent {
   color: #000;
+  font-family: monospace;
+}
 
+.well p .contextByParent {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #111;
 }
 
 a:hover, a:visited {
